@@ -1,8 +1,8 @@
-Maps: Crimes reported in the Cedar Valley
+Maps: Crimes reported in the Cedar Valley: 2013
 ===========
 
-* [Live demo](http://wcfcourier.com/app/crime_map/)
-- This is the code that runs our crime maps. We map certain calls for service for both Waterloo and Cedar Falls, Iowa.
+* [Live demo](http://wcfcourier.com/app/crime_map2013/)
+- This is the code that runs our 2013 crime map. We map certain calls for service for both Waterloo and Cedar Falls, Iowa. We also have a more updated crime map. Code is [here](https://github.com/csessig86/crime_map)
 
 The short of how this app works:
 

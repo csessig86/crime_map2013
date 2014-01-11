@@ -16,7 +16,7 @@ f.write("date" + "," + "times" "," + "crime" + "," + "location" + "," + "disposi
 # Command line command convert PDF pages to HTML pages: pdftohtml -c calls.PDF
 
 # URL of the crime report index, which includes links to several pages with crime reports on them
-url = 'file://localhost/Users/chrisessig/Desktop/WCFCourier/crime_map/report_cf/calls_ind.html'
+url = 'file://localhost/Users/chrisessig/Desktop/WCFCourier/crime_map2013/report_cf/calls_ind.html'
 page = urllib2.urlopen(url)
 soup = BeautifulSoup(page)
 
@@ -30,7 +30,7 @@ for x in range(1, 12):
 	print "Getting data for page " + report_page
 	
 	# Create new URL for each page and pass that to Beautiful Soup
-	new_url = 'file://localhost/Users/chrisessig/Desktop/WCFCourier/crime_map/report_cf/calls-' + report_page + '.html'
+	new_url = 'file://localhost/Users/chrisessig/Desktop/WCFCourier/crime_map2013/report_cf/calls-' + report_page + '.html'
 	new_page = urllib2.urlopen(new_url)
 	new_soup = BeautifulSoup(new_page)
 	# We'll now start pulling content from URLs

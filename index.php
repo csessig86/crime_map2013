@@ -23,7 +23,7 @@ $sidebar = 'false'; # uncomment to hide sidebar
 <!-- Twitter meta tags -->
 <meta property="twitter:site" content="@WCFCourier">
 <meta property="twitter:card" content="These maps display crimes reported in Waterloo and Cedar Falls, Iowa.">
-<meta property="twitter:url" content="wcfcourier.com/app/crime_map/">
+<meta property="twitter:url" content="wcfcourier.com/app/crime_map2013/">
 <meta property="twitter:title" content="Crimes reported in the Cedar Valley">
 <meta property="twitter:description" content="These maps display crimes reported in Waterloo and Cedar Falls, Iowa.">
 <meta property="twitter:image" content="http://wcfcourier.com/app/special/facebookcourierlogo.jpg">
@@ -151,7 +151,7 @@ hr {
 	<div id="header">
 		<div id="share">
 			<ul><li>
-				<a data-text="" href="http://twitter.com/share" url="http://wcfcourier.com/app/crime_map/" class="twitter-share-button" data-count="horizontal">Tweet</a>
+				<a data-text="" href="http://twitter.com/share" url="http://wcfcourier.com/app/crime_map2013/" class="twitter-share-button" data-count="horizontal">Tweet</a>
 				<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
 			</li><li>
 				<g:plusone size="medium"></g:plusone>
@@ -164,7 +164,7 @@ hr {
                 	js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=148866255208434";
                 	fjs.parentNode.insertBefore(js, fjs);
             	}(document, 'script', 'facebook-jssdk'));</script>
-            	<div class="fb-like" data-href="http://wcfcourier.com/app/crime_map/index.php" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div>
+            	<div class="fb-like" data-href="http://wcfcourier.com/app/crime_map2013/index.php" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div>
 			</li></ul>
 		</div>
 	</div>
@@ -175,7 +175,7 @@ hr {
 
 <p>These maps display crimes reported in Waterloo and Cedar Falls, Iowa. Select a map for a complete breakdown of crimes reported in each town. All data is gathered and released by the Waterloo Police Department, the Cedar Falls Police Department and the University of Northern Iowa Police Department.</p>
 
-<p>For the mobile/tablet version of this app, <a href="index_mobile.php">click here</a>. For reports from 2012, <a href="http://wcfcourier.com/app/crime_map2012/" target="_blank">click here</a>.</p>
+<p>For the mobile/tablet version of this app, <a href="index_mobile.php">click here</a>. For reports from 2012, <a href="http://wcfcourier.com/app/crime_map20132012/" target="_blank">click here</a>.</p>
 
 <table id="intro_table">
 	<tr>

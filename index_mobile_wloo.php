@@ -28,7 +28,7 @@
 <!-- Twitter meta tags -->
 <meta property="twitter:site" content="@WCFCourier">
 <meta property="twitter:card" content="These maps display crimes reported in Waterloo, Iowa.">
-<meta property="twitter:url" content="wcfcourier.com/app/crime_map/">
+<meta property="twitter:url" content="wcfcourier.com/app/crime_map2013/">
 <meta property="twitter:title" content="Crimes reported in Waterloo">
 <meta property="twitter:description" content="This map displays crimes reported in Waterloo, Iowa.">
 <meta property="twitter:image" content="http://wcfcourier.com/app/special/facebookcourierlogo.jpg">
@@ -42,7 +42,7 @@
 <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
 
 <link href="http://wcfcourier.com/app/special/grassley_sweeney/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-<link href="http://wcfcourier.com/app/crime_map/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
+<link href="http://wcfcourier.com/app/crime_map2013/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
 
 <style type="text/css">
 @media (max-width: 767px) {
@@ -175,7 +175,7 @@ hr {
 	<div id="share">
     	<table>
         	<tr>
-				<td><a data-text="" href="http://twitter.com/share" url="http://wcfcourier.com/app/crime_map/" class="twitter-share-button" data-count="horizontal">Tweet</a>
+				<td><a data-text="" href="http://twitter.com/share" url="http://wcfcourier.com/app/crime_map2013/" class="twitter-share-button" data-count="horizontal">Tweet</a>
 				<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></td>
 				<td><g:plusone size="medium"></g:plusone></td>
 				<td><div id="fb-root"></div>
@@ -186,7 +186,7 @@ hr {
                         js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=148866255208434";
                         fjs.parentNode.insertBefore(js, fjs);
                     }(document, 'script', 'facebook-jssdk'));</script>
-                    <div class="fb-like" data-href="http://wcfcourier.com/app/crime_map/index_mobile_wloo.php" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div></td>
+                    <div class="fb-like" data-href="http://wcfcourier.com/app/crime_map2013/index_mobile_wloo.php" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div></td>
             </tr>
         </table>
 	</div>
