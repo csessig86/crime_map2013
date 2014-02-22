@@ -202,7 +202,8 @@ hr {
 	<div id="last_updated_mobile"></div>
 </div>
 
-<p>The chart below displays crimes reported in Cedar Falls, Iowa, since the beginning of the year. The information is gathered from the <a href="http://www.cedarfalls.com/Archive.aspx?AMID=82" target="_blank">Cedar Falls Police Department</a> and the <a href="http://www.vpaf.uni.edu/pubsaf/crime_stats/log/index.shtml" target="_blank">UNI Police Department</a>. Not all calls are mapped; minor reports like business checks and traffic stops are not shown below. Instead, we have selected eight categories of reports to map. </p>
+<p>The chart below displays crimes reported in Cedar Falls, Iowa, since the beginning of the year. The information is gathered from the <a href="http://www.cedarfalls.com/Archive.aspx?AMID=82" target="_blank">Cedar Falls Police Department</a> and the <a href="http://www.vpaf.uni.edu/pubsaf/crime_stats/log/index.shtml" target="_blank">UNI Police Department</a>. Not all calls are mapped; minor reports like business checks and traffic stops are not shown below. Instead, we have selected eight categories of reports to map. Also, we do not include crimes where no report was filed by the police department.</p>
+<p><strong>Note:</strong> The numbers of crimes are not official. Reports are gathered using an automated program and may include omissions. Also, the type of crime may have changed upon further investigation from the police department.</p>
 
 <p>Select a month below to filter the number of reported crimes that are pinpointed on the map.</p>
 

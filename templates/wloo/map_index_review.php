@@ -28,15 +28,15 @@
     <!-- Twitter meta tags -->
     <meta property="twitter:site" content="@WCFCourier">
     <meta property="twitter:card" content="This map displays crimes reported in Waterloo, Iowa.">
-    <meta property="twitter:url" content="http://wcfcourier.com/app/crime_map/">
+    <meta property="twitter:url" content="http://wcfcourier.com/app/crime_map2013/">
     <meta property="twitter:title" content="Crimes reported in the Waterloo">
     <meta property="twitter:description" content="This map displays crimes reported in Waterloo, Iowa.">
     <meta property="twitter:image" content="http://wcfcourier.com/app/special/facebookcourierlogo.jpg">
 
-    <link rel="stylesheet" href="http://wcfcourier.com/app/crime_map/leaflet/leaflet.css" />
+    <link rel="stylesheet" href="http://wcfcourier.com/app/crime_map2013/leaflet/leaflet.css" />
     <!--[if lte IE 8]>
-    <link rel="stylesheet" href="http://wcfcourier.com/app/crime_map/leaflet/leaflet.ie.css"  />
-    <link rel="stylesheet" href="http://wcfcourier.com/app/crime_map/css/lib/font-awesome-ie7.min.css" />
+    <link rel="stylesheet" href="http://wcfcourier.com/app/crime_map2013/leaflet/leaflet.ie.css"  />
+    <link rel="stylesheet" href="http://wcfcourier.com/app/crime_map2013/css/lib/font-awesome-ie7.min.css" />
     <style type="text/css">
     #all-reports-tab {
         opacity: 0;
@@ -50,23 +50,23 @@
     </style>
     <![endif]-->
 
-    <link rel="stylesheet" href="http://wcfcourier.com/app/crime_map/leaflet/MarkerCluster.css" />
-    <link rel="stylesheet" href="http://wcfcourier.com/app/crime_map/leaflet/MarkerCluster.Default.css" />
+    <link rel="stylesheet" href="http://wcfcourier.com/app/crime_map2013/leaflet/MarkerCluster.css" />
+    <link rel="stylesheet" href="http://wcfcourier.com/app/crime_map2013/leaflet/MarkerCluster.Default.css" />
     
-    <link rel="stylesheet" type="text/css" id="themeCSS" href="http://wcfcourier.com/app/crime_map/jQRangeSlider/css/classic.css">
-    <link rel="stylesheet" type="text/css" href="http://wcfcourier.com/app/crime_map/jQRangeSlider/demo/style.css">
-    <link rel="stylesheet" type="text/css" href="http://wcfcourier.com/app/crime_map/jQRangeSlider/demo/lib/jquery-ui/css/smoothness/jquery-ui-1.8.10.custom.css">
+    <link rel="stylesheet" type="text/css" id="themeCSS" href="http://wcfcourier.com/app/crime_map2013/jQRangeSlider/css/classic.css">
+    <link rel="stylesheet" type="text/css" href="http://wcfcourier.com/app/crime_map2013/jQRangeSlider/demo/style.css">
+    <link rel="stylesheet" type="text/css" href="http://wcfcourier.com/app/crime_map2013/jQRangeSlider/demo/lib/jquery-ui/css/smoothness/jquery-ui-1.8.10.custom.css">
     
-    <link rel="stylesheet" type="text/css" href="http://wcfcourier.com/app/crime_map/datatables/media/css/demo_page.css">
-    <link rel="stylesheet" type="text/css" href="http://wcfcourier.com/app/crime_map/datatables/media/css/demo_table.css">
+    <link rel="stylesheet" type="text/css" href="http://wcfcourier.com/app/crime_map2013/datatables/media/css/demo_page.css">
+    <link rel="stylesheet" type="text/css" href="http://wcfcourier.com/app/crime_map2013/datatables/media/css/demo_table.css">
     
     <link href="http://wcfcourier.com/app/special/grassley_sweeney/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="http://wcfcourier.com/app/crime_map/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
+    <link href="http://wcfcourier.com/app/crime_map2013/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
 
-    <link rel="stylesheet" href="http://wcfcourier.com/app/crime_map/css/lib/font-awesome.css" />
+    <link rel="stylesheet" href="http://wcfcourier.com/app/crime_map2013/css/lib/font-awesome.css" />
     <!-- <link rel="stylesheet" href="css/lib/leaflet.awesome-markers.css" /> -->
 
-    <link rel="stylesheet" type="text/css" href="http://wcfcourier.com/app/crime_map/css/styles_percent.css">
+    <link rel="stylesheet" type="text/css" href="http://wcfcourier.com/app/crime_map2013/css/styles_percent.css">
     
     <style>
     body {
@@ -278,21 +278,21 @@
     }
     </style>
 
-    <script src="http://wcfcourier.com/app/crime_map/leaflet/leaflet.js"></script>
-    <script src="http://wcfcourier.com/app/crime_map/leaflet/leaflet.markercluster-src.js"></script>
+    <script src="http://wcfcourier.com/app/crime_map2013/leaflet/leaflet.js"></script>
+    <script src="http://wcfcourier.com/app/crime_map2013/leaflet/leaflet.markercluster-src.js"></script>
     
     <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
-    <script src="http://wcfcourier.com/app/crime_map/js/jquery.js"></script>
-    <script src="http://wcfcourier.com/app/crime_map/js/jquery.geocodify.0.11.min.js"></script>
+    <script src="http://wcfcourier.com/app/crime_map2013/js/jquery.js"></script>
+    <script src="http://wcfcourier.com/app/crime_map2013/js/jquery.geocodify.0.11.min.js"></script>
     
-    <script type="text/javascript" src="http://wcfcourier.com/app/crime_map/datatables/jquery.dataTables.js"></script>
+    <script type="text/javascript" src="http://wcfcourier.com/app/crime_map2013/datatables/jquery.dataTables.js"></script>
 
-    <script src="http://wcfcourier.com/app/crime_map/jQRangeSlider/demo/lib/jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
-    <script src="http://wcfcourier.com/app/crime_map/jQRangeSlider/lib/jquery.mousewheel.min.js"></script>
+    <script src="http://wcfcourier.com/app/crime_map2013/jQRangeSlider/demo/lib/jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+    <script src="http://wcfcourier.com/app/crime_map2013/jQRangeSlider/lib/jquery.mousewheel.min.js"></script>
     
-    <script type="text/javascript" src="http://wcfcourier.com/app/crime_map/js/bootstrap-dropdown.js"></script>
-    <script src="http://wcfcourier.com/app/crime_map/js/bootstrap-tab.js"></script>
-    <script src="http://wcfcourier.com/app/crime_map/datatables/DT_bootstrap.js"></script>
+    <script type="text/javascript" src="http://wcfcourier.com/app/crime_map2013/js/bootstrap-dropdown.js"></script>
+    <script src="http://wcfcourier.com/app/crime_map2013/js/bootstrap-tab.js"></script>
+    <script src="http://wcfcourier.com/app/crime_map2013/datatables/DT_bootstrap.js"></script>
 </head>
 <body>
 <div id="main_content">
@@ -380,7 +380,7 @@
 
 <div id='info-map' class='hidden-phone'>
 <p><strong>About:</strong> What areas had the most reported crimes in Waterloo this year? On this map, the city of Waterloo is divided into several <a href="http://cran.r-project.org/web/packages/hexbin/vignettes/hexagon_binning.pdf" target="_blank">hexagon shapes</a>. The darker the shapes, the more crimes that particular area had in 2013. Use the view options to toggle between violent and property crimes.</p>
-<p><strong>Note:</strong> What areas had the most reported crimes in Cedar Falls this year? On this map, the city of Cedar Falls is divided into several <a href="http://cran.r-project.org/web/packages/hexbin/vignettes/hexagon_binning.pdf" target="_blank">hexagon shapes</a>. The darker the shapes, the more crimes that particular area had in 2013. Use the view options to toggle between violent and property crimes. Click on a hexagon to see how many crimes happened in that area.</p>
+<p><strong>Note:</strong> The area with the most violent crimes in Waterloo included Covenant Medical Center, 506 W 9th St, where a large number of assaults were reported. The area with the most property crimes include the mall, where a large number of thefts were reported.</p>
 </div>
 
 <!-- For mobile -->
@@ -398,9 +398,9 @@
     </div>
     <br />
     <strong>More crime coverage</strong><br />
-    - <a href="http://wcfcourier.com/app/crime_map/index_mobile_wloo.php">View reports for December and other months in Waterloo</a>
+    - <a href="http://wcfcourier.com/app/crime_map2013/index_mobile_wloo.php">View reports for December and other months in Waterloo</a>
     <br />
-    - <a href="http://wcfcourier.com/app/crime_map/templates/cf/map_index_review.php">View crime map for Cedar Falls</a>
+    - <a href="http://wcfcourier.com/app/crime_map2013/templates/cf/map_index_review.php">View crime map for Cedar Falls</a>
     <br />
     <br />
     <div id="credits">
@@ -459,9 +459,9 @@
     </tbody>
 </table>
 
-<script src="http://wcfcourier.com/app/crime_map/JSON/crime_data_review_violent.json"></script>
-<script src="http://wcfcourier.com/app/crime_map/JSON/crime_data_review_property.json"></script>
-<script src="http://wcfcourier.com/app/crime_map/js/script_map_review.js"></script>
+<script src="http://wcfcourier.com/app/crime_map2013/JSON/crime_data_review_violent.json"></script>
+<script src="http://wcfcourier.com/app/crime_map2013/JSON/crime_data_review_property.json"></script>
+<script src="http://wcfcourier.com/app/crime_map2013/js/script_map_review.js"></script>
 
 <!--[if lte IE 8]>
 <script type="text/javascript">
@@ -475,7 +475,7 @@ $('#crime_table_h2').hide();
 <![endif]-->
 
 <!--[if !IE]><!-->
-<script src="http://wcfcourier.com/app/crime_map/JSON/crime_data.json"></script>
+<script src="http://wcfcourier.com/app/crime_map2013/JSON/crime_data.json"></script>
 <script type="text/javascript">
 if ($(window).width() > 626) {
   tableCreate();

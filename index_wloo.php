@@ -190,7 +190,8 @@ hr {
 <table id="intro_table">
 	<tr>
 		<td width="90%">
-		<p>These maps display crimes reported in Waterloo, Iowa, since the beginning of the year. The information is gathered from the Waterloo Police Department, which keeps a <a href="http://waterloopolice.com/index.php?option=com_content&view=section&layout=blog&id=16&Itemid=31" target="_blank">log of calls for service</a>. Not all calls are mapped; minor reports like business checks and traffic stops are not shown below. Instead, we have selected eight categories of reports to map.</p>
+		<p>These maps display crimes reported in Waterloo, Iowa, since the beginning of the year. The information is gathered from the Waterloo Police Department, which keeps a <a href="http://waterloopolice.com/index.php?option=com_content&view=section&layout=blog&id=16&Itemid=31" target="_blank">log of calls for service</a>. Not all calls are mapped; minor reports like business checks and traffic stops are not shown below. Instead, we have selected eight categories of reports to map. Also, we do not include crimes where no report was filed by the police department.</p>
+        <p><strong>Note:</strong> The numbers of crimes are not official. Reports are gathered using an automated program and may include omissions. Also, the type of crime may have changed upon further investigation from the police department.</p>
         <p>For the mobile/tablet version of this app, <a href="index_mobile_wloo.php">click here</a>. For a crime map for the city of Cedar Falls, <a href="index_cf.php">click here</a>.</p>
 		</td>
 		<td width="10%"><div id="last_updated"></div></td>

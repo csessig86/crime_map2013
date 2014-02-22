@@ -1,4 +1,4 @@
-<?php include($_SERVER['DOCUMENT_ROOT'].'/app/crime_map/templates/template_top.php'); ?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/app/crime_map2013/templates/template_top.php'); ?>
 <body style="padding-top: 10px; padding-bottom: 0px;">
 <div id="main_content">
 
@@ -87,7 +87,7 @@
 <p>The clustered areas will automatically change when you zoom in and out of the map. Rollover the marker to see the area covered by the cluster. Click on the cluster to see each individual crime report on the map and where it occurred.</p>
 </div>
 
-<?php include($_SERVER['DOCUMENT_ROOT'].'/app/crime_map/templates/template_middle.php'); ?>
-<script src="http://wcfcourier.com/app/crime_map/JSON/crime_data.json"></script>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/app/crime_map2013/templates/template_middle.php'); ?>
+<script src="http://wcfcourier.com/app/crime_map2013/JSON/crime_data.json"></script>
 
-<?php include($_SERVER['DOCUMENT_ROOT'].'/app/crime_map/templates/template_bottom.php'); ?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/app/crime_map2013/templates/template_bottom.php'); ?>

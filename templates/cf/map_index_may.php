@@ -1,4 +1,4 @@
-<?php include($_SERVER['DOCUMENT_ROOT'].'/app/crime_map/templates/template_top.php'); ?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/app/crime_map2013/templates/template_top.php'); ?>
 <body style="padding-top: 10px; padding-bottom: 0px;">
 <div id="main_content">
 
@@ -86,7 +86,7 @@
 <p><strong>About:</strong> This map is color coded depending on the type of call. Click on the markers on the map for more information on the call. Select a month below to filter the number of reported crimes that are pinpointed on the map.</p>
 </div>
 
-<?php include($_SERVER['DOCUMENT_ROOT'].'/app/crime_map/templates/template_middle.php'); ?>
-<script src="http://wcfcourier.com/app/crime_map/JSON_cf/crime_data_may.json"></script>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/app/crime_map2013/templates/template_middle.php'); ?>
+<script src="http://wcfcourier.com/app/crime_map2013/JSON_cf/crime_data_may.json"></script>
 
-<?php include($_SERVER['DOCUMENT_ROOT'].'/app/crime_map/templates/template_bottom.php'); ?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/app/crime_map2013/templates/template_bottom.php'); ?>

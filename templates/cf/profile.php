@@ -1,4 +1,4 @@
-<?php include($_SERVER['DOCUMENT_ROOT'].'/app/crime_map/templates/template_top.php'); ?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/app/crime_map2013/templates/template_top.php'); ?>
 <body style="padding-top: 10px; padding-bottom: 0px;">
 <div id="main_content">
 
